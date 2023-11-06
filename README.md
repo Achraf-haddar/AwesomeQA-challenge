@@ -34,7 +34,7 @@ Confirmation Popup: When initiating a deletion, a confirmation popup appears to 
 ## Some Screenshots:
 ![alt Home Interface](./screenshots/homeInterface.PNG "Home Interface")
 
-![alt Tickets Interface 1](./screenshots/ticketsInterface2.PNG "Tickets Interface 1")
+![alt Tickets Interface 1](./screenshots/ticketsInterface1.PNG "Tickets Interface 1")
 
 ![alt Tickets Interface 2](./screenshots/ticketsInterface2.PNG "Tickets Interface 2")
 
