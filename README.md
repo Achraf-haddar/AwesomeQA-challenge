@@ -1,20 +1,6 @@
 # Awesome ticket challenge
 
 ## Proposed Solution:
-I have mainly  developed two interfaces:
-- /home: contain the three buttons (design inspired by the shared figma design). The only working button is the tickets one which redirects to the /tickets interface.
-- /tickets: has a grid of tickets card. 9 per page with a pagination feature. Each card has the author avatar, author name, creation date, content. There are 3 buttons in each card. One for redirection to discord (msg_url), "Show More" button that displays a popup where further details about the ticket are provided, and a delete button for deleting a ticket from the grid list. The tickets can be sorted by creation date either ascending or descending.
-
-The "Show More" popup has details that can be relevant to the moderator such as:
-- Author name.
-- Content.
-- Has attachment: Yes or No.
-- Status.
-- Context Messages: List of context messages. Each context message has the "author name (nickname)", avatar and creation date. Each context message has a carrosel where the user can see the content of the message. 
-
-A deletion has a confirmation popup to confirm deletion.
-
-
 Interfaces Developed:
 
 ### /home Interface:
