@@ -1,0 +1,19 @@
+.menuContainer {
+  display: flex;
+  justify-content: space-between;
+}
+.buttonsContainer {
+  flex-grow: 0.1;
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-between;
+}
+.sortingButton {
+  background-color: white;
+  color: black;
+  font-weight: bold;
+  text-transform: none;
+}
+.sortingButton:hover {
+  color: white;
+}

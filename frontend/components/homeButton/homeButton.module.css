@@ -1,0 +1,61 @@
+.buttonBox {
+  display: flex;
+  justify-content: center;
+  background-color: #1c1c1f;
+  border-color: #302f36;
+  height: 8.125rem;
+  border: 1px solid #302f36;
+  border-radius: 8px;
+}
+
+.customButton {
+  width: 100%;
+  height: 100%;
+  font-size: 1.2rem;
+  background-color: transparent;
+  justify-content: flex-start;
+  text-transform: none;
+}
+
+.customButton:hover {
+  background-color: transparent;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.topSection {
+  display: flex;
+  align-items: center;
+  height: 60%;
+}
+
+.iconContainer {
+  background-color: rgba(93, 80, 195, 0.3);
+  width: 51px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+}
+
+.icon {
+  color: "white";
+  width: "38px";
+  height: "38px";
+}
+
+.bottomSection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40%;
+}
+
+.text {
+  font-size: 18px;
+}

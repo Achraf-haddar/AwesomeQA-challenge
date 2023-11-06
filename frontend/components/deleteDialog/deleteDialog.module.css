@@ -1,0 +1,20 @@
+.title {
+  width: 100%;
+}
+
+.content {
+  width: 600px;
+}
+
+.closeIcon {
+  position: absolute;
+  right: 8px;
+  top: 8px;
+}
+
+.confirmationText {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-weight: bold;
+  font-size: 14px;
+}

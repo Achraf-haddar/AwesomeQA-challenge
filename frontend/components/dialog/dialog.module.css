@@ -1,0 +1,54 @@
+.scrollableContainer {
+  width: 600px;
+  max-height: 500px;
+  overflow-y: auto;
+  scrollbar-width: thin;
+}
+
+.scrollableContainer::-webkit-scrollbar {
+  width: 12px;
+}
+
+.scrollableContainer::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 6px;
+}
+
+.scrollableContainer::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 6px;
+}
+
+.scrollableContainer::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.closeIcon {
+  position: absolute;
+  right: 8px;
+  top: 8px;
+}
+
+.title {
+  width: 100%;
+}
+
+.contentTitles {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.statusButton {
+  height: 20px;
+  color: white;
+}
+
+.list {
+  width: 100%;
+}
+
+.contextMessage {
+  text-align: center;
+}

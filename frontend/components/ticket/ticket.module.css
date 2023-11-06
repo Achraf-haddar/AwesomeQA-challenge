@@ -1,0 +1,45 @@
+.card {
+  min-width: 275px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+}
+
+.cardContent {
+  flex: 1 auto;
+}
+
+.status {
+  font-size: 14px;
+}
+
+.redirectionButton {
+  width: 5px;
+  border-radius: 20px;
+}
+
+.deletionButton {
+  width: 5px;
+  border-radius: 20px;
+  color: red;
+}
+
+.authorName {
+  font-size: 15px;
+}
+.createdAt {
+  font-size: 13px;
+}
+
+.content {
+  margin-bottom: 0.2rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 4;
+}
+
+.cardActions {
+  justify-content: space-between;
+}

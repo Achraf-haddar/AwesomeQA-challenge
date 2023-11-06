@@ -1,0 +1,13 @@
+message: {
+	id, channel_id, parent_channel_id, community_server_id,
+	timestamp, has_attachment, reference_msg_id, timestamp_insert,
+	discussion_id, author_id, content, msg_url, 
+	author {
+		id, name, nickname, color, discriminator, avatar_url,
+		is_bot, timestamp_insert	
+	}
+}
+
+ticket: {
+	id, msg_id, status, resolved_by, ts_last_status_change, timestamp, context_messages
+}
