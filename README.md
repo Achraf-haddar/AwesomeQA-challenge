@@ -1,13 +1,14 @@
 # Awesome ticket challenge
 
 ## Proposed Solution:
-Interfaces Developed:
+Interfaces (fully responsive) Developed:
 
 ### /home Interface:
 This interface hosts three buttons designed in alignment with the Figma design provided. Among the buttons, the functional one is the "Tickets" button, redirecting users to the /tickets interface.
 
 ### /tickets Interface:
 **Display:** Presents a grid layout showcasing ticket cards with a pagination for seamless navigation.
+
 **Card Components:** Each card contains:
 - Author Avatar.
 - Author Name: author name (author nickname).
